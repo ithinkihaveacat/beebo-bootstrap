@@ -45,3 +45,11 @@ Generate the assets:
 ````sh
 $ grunt dist # generates the assets in dist/
 ````
+
+## Installation
+
+Edit as required:
+
+````sh
+$ cd dist ; and rm -rf ~/workspace/beebo-site/public/{fonts,css,js} ; and cp -a . ~/workspace/beebo-site/public
+````
