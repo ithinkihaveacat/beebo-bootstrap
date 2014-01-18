@@ -24,6 +24,10 @@ You've installed `grunt`:
 $ npm install -g grunt-cli
 ````
 
+## Making Changes
+
+Pretty much everything you would want to change is in `less/variables.less`; see [the documentation](http://getbootstrap.com/customize/#less-variables).
+
 ## Generating Assets
 
 Pull in the latest changes:
