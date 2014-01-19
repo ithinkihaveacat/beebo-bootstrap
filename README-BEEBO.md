@@ -51,5 +51,5 @@ $ grunt dist # generates the assets in dist/
 Edit as required:
 
 ````sh
-$ cd dist ; and rm -rf ~/workspace/beebo-site/public/{fonts,css,js} ; and cp -a . ~/workspace/beebo-site/public
+$ pushd dist ; and rm -rf ~/workspace/beebo-site/public/{fonts,css,js} ; and cp -a . ~/workspace/beebo-site/public ; and popd
 ````
