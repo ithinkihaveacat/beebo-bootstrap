@@ -40,6 +40,12 @@ $ git merge tmp
 $ git branch -d tmp
 ````
 
+Update dependencies:
+
+````sh
+$ npm update
+````
+
 Generate the assets:
 
 ````sh
