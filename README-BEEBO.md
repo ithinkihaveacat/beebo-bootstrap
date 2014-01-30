@@ -49,8 +49,13 @@ $ npm update
 Generate the assets:
 
 ````sh
-$ grunt dist # generates the assets in dist/
+# generates the assets in dist/
+$ grunt dist-css 
+$ grunt dist-js
 ````
+
+(The `dist` target by itself also updates the CSS and JS in the `docs/`
+directory...)
 
 ## Installation
 
