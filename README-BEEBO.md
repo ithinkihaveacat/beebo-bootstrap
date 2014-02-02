@@ -59,7 +59,7 @@ directory...)
 
 ## Installation
 
-Edit as required:
+Copy to appropriate location (edit as required):
 
 ````sh
 $ pushd dist ; and rm -rf ~/workspace/beebo-site/public/{fonts,css,js} ; and cp -a . ~/workspace/beebo-site/public ; and popd
