@@ -62,5 +62,5 @@ directory...)
 Copy to appropriate location (edit as required):
 
 ````sh
-$ pushd dist ; and rm -rf ~/workspace/beebo-site/public/{fonts,css,js} ; and cp -a . ~/workspace/beebo-site/public ; and popd
+$ grunt dist-css ; and cp dist/css/* ~/workspace/beebo-site/public/css
 ````
