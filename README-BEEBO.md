@@ -34,7 +34,7 @@ Pull in the latest changes:
 
 ````sh
 $ git fetch --all --tags
-$ git checkout -b tmp v3.0.3 # latest tag from twbs/bootstrap
+$ git checkout -b tmp v3.0.3 # latest tag from twbs/bootstrap; git tag | tail -1
 $ git checkout master
 $ git merge tmp
 $ git branch -d tmp
